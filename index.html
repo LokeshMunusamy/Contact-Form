@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,200..800;1,200..800&display=swap" >
+</head>
+<body>
+    <div class="container">
+        <!-- <div>
+            <h3>Contact Us</h3>
+        </div> -->
+        <form action="" class="user-input"> 
+            <h3>Contact Us</h3>           
+            <div class="first-name">
+                <label for="fname">First Name <sup>*</sup></label>
+                <input class="input-padd" type="text" name="fname" id="fname" required>                   
+            </div>              
+            <div class="last-name">                
+                    <label for="lname">Last Name <sup>*</sup> </label>
+                    <input class="input-padd" type="text" name="lname" id="lname" required>                       
+            </div>                  
+            <div class="email-add">
+                <label for="email">Email Address<sup>*</sup></label>
+                <input class="input-padd" type="email" name="email" id="email" class="E-mail" required>
+            </div>
+          
+            <div class="query">
+                <div class="query1">
+                    <label for="">Query Type<sup>*</sup></label>
+                </div>
+                <div class="general">
+                    <input class="input-padd" type="radio" name="type" id="enquiry">
+  
+                    <label for="enquiry">General Enquiry</label>
+                </div>
+                <div class="support">
+                    <input class="input-padd" type="radio" name="type" id="request">
+              
+                    <label for="request">Support Request</label>
+                </div>
+            </div>           
+            <div class="info">
+                <label for="message">Message<sup>*</sup></label>
+                <textarea name="message" id="message"></textarea>
+            </div>
+            <div class="check">
+                <input class="input-padd" type="checkbox" name="click" id="click">              
+                <label for="click">I consent to being contracted by the team<sup>*</sup></label>
+            </div>
+            <button>Submit</button>
+           
+        </form>
+    </div>
+</body>
+</html>

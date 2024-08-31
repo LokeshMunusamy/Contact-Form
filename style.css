@@ -1,0 +1,336 @@
+/* *{
+    margin: 0;
+    padding: 0;
+    
+} */
+
+body{
+    background-color: #dff1e7;
+    font-family: "Karla", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+    
+}
+sup{
+    color: hsl(169, 82%, 27%);
+}
+.container{
+    width: 40%;
+    /* height: 100px; */
+    background-color:  #ffffff;
+    border-radius: 10px;
+    margin: 3% auto;
+    padding :15px;
+    box-sizing: border-box;
+    min-width: 430px;
+
+}
+h3{
+    margin-left: 2%;
+}
+.first-name{
+    display: inline-block;
+    width: 45%;
+    margin-left: 1%;
+}
+.last-name{
+    display: inline-block;
+    width: 45%;
+    margin-left: 4%;
+    /* box-sizing: border-box; */
+}
+.input-padd{
+    padding: 10px;
+    border-radius: 5px;
+    /* margin-top: 10px;     */
+}
+/* form{
+    background-color: red;
+    box-sizing: border-box;
+}  */
+.email-add{
+    
+    padding: 8px;
+    margin-top: 10px;
+}
+.email-add input{
+    width: 91%;
+}
+input{
+    margin-top: 10px;
+}
+.general{
+    width: 39%;
+    display: inline-block;
+    border: 1px solid;
+    padding: 5px;
+    border-radius: 5px;
+    margin-top: 10px;
+    margin-left: 3%;
+}
+.query1{
+    margin-left: 2%;
+    margin-top: 10px;
+}
+.support{
+    width: 39%;
+    display: inline-block;
+    /* margin-left: 3%; */
+    border: 1px solid;
+    padding: 5px;
+    border-radius: 5px;
+    margin-left: 5%;
+    /* text-align: center; */    
+}
+.info{
+    margin-left: 2% ;
+    margin-top: 10px;
+}
+.info textarea{
+    width: 90%;
+    padding: 15px;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+.check{
+    margin-left: 2% ; 
+}
+button{
+    margin-top: 10px;
+    margin-left: 20px;
+    width: 90%;
+    padding: 8px;
+    border-radius: 5px;
+    background-color: hsl(169, 82%, 27%);
+    color: #ffffff   
+}
+.first-name input:hover{
+    border-color: hsl(169, 82%, 27%);
+    cursor: pointer;
+}
+.last-name input:hover{
+    border-color: hsl(169, 82%, 27%);
+    cursor: pointer;
+}
+textarea:hover{
+    border-color: hsl(169, 82%, 27%);;
+    cursor: pointer;
+}
+button:hover{
+    background-color: #0f311c;
+    cursor: pointer;
+}
+.general:hover{
+    border-color: hsl(169, 82%, 27%);
+    background-color: #dff1e7;
+    cursor: pointer;
+}
+.general input{
+    
+    accent-color: hsl(169, 82%, 27%);;
+    cursor: pointer;
+}
+.support:hover{
+    border-color: hsl(169, 82%, 27%);
+    background-color: #dff1e7;
+    cursor: pointer;
+}
+.email-add input{
+    accent-color: hsl(169, 82%, 27%);
+    cursor: pointer;
+}   
+.support input{
+    accent-color: hsl(169, 82%, 27%);
+    cursor: pointer;
+}
+.check input{
+    accent-color: hsl(169, 82%, 27%);
+    cursor: pointer;
+}
+.email-add input:hover{
+    border-color: hsl(169, 82%, 27%);
+    cursor: pointer;
+}
+/* .query{
+    padding: 10px;
+} */
+/* label{
+    margin-top: 0px;
+} */
+
+/* .name-container{
+    display: inline-block;
+    width: 43%;
+} */
+/* .input-field{
+    display: inline-block;
+    width: 43%;
+    margin-left: 56px;
+} */
+/* .e-add label{
+    margin-top: 10px;
+    /* padding: 10px; */
+/* }  */
+/* .query input{
+    margin-top: 10px;
+} */
+
+/* .name-container input{
+    padding: 8px;
+    border-radius: 10px solid;
+    
+} */
+/* .input-field input{
+    padding: 8px;
+    border-radius: 10px solid;
+    margin-top: 10px;
+} */
+/* .email-add {
+    margin: 10px auto;
+} */
+/* .email-add input{
+    width: 95%;
+    padding: 8px;
+    border-radius: 5px;
+} */
+
+
+
+/* .message textarea{
+    width: 95%;
+    padding: 8px;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+.check label{
+    margin-left: 2%;
+} */
+
+
+/* input:focus+label{
+    border-color: red;
+} */
+ 
+/* .first-name{
+    
+    display: inline-block;
+    width: 20%;
+    margin-top: 15px;
+}
+.last-name {
+    width: 20%;
+    display: inline-block;
+    margin-left: 140px;
+    padding: 10px; 
+
+
+/* }
+.ls-name{
+    display: inline-block;
+    margin-left: 90px;   
+}
+.fi-name input{
+    width: 200px;
+    height: 30px;
+    border-radius: 6px;
+    margin-top: 5px;
+    border: 1px solid gray;
+
+}
+.ls-name input{
+    width: 200px;
+    height: 30px;
+    border-radius: 6px;
+    margin-top: 5px;
+    margin-left: 10px;
+    border: 1px solid gray;
+}
+.fi-name input:hover{
+    border-color: hsl(169, 82%, 27%);
+}
+.ls-name input:hover{
+    border-color: hsl(169, 82%, 27%);
+}
+.e-add{
+    margin-top: 20px;
+}
+.e-input input{
+    width: 510px;
+    height: 30px;
+    border-radius: 6px;
+    margin-top: 5px;
+    border: 1px solid gray;
+
+}
+.query{
+    margin-top: 20px;
+}
+.general{
+    display: inline-block;
+    border: 1px solid ;
+    padding: 10px;
+    border-radius: 6px;
+    margin-top: 5px;
+    width: 170px;   
+}
+
+.support{
+    display: inline-block;
+    border: 1px solid;
+    padding: 10px;
+    border-radius: 6px;
+    margin-top: 5px;
+    margin-left: 122px;
+    width: 170px;   
+}
+.info{
+    margin-top: 20px;
+}
+.info1 textarea{
+    width: 512px;
+    height: 100px;
+    border-radius: 6px;
+    margin-top: 5px;
+    border: 1px solid gray;
+}
+.info1 textarea:hover{
+    border-color: hsl(169, 82%, 27%);;
+}
+.check{
+    display: inline-block;
+    margin-top: 20px;
+}
+.check1{
+    display: inline-block;
+    margin-left: 15px;  
+}
+.btn button{
+    margin-top: 30px;
+    height: 40px;
+    width: 512px;
+    border-radius: 6px;
+    background-color: hsl(169, 82%, 27%);
+    color: #ffffff
+}
+.btn button:hover{
+    background-color: #0f311c;
+}
+.general:hover{
+    background-color: #dff1e7;
+}
+.general input{
+    accent-color: hsl(169, 82%, 27%);;
+}
+.support:hover{
+    background-color: #dff1e7
+}
+.support input{
+    accent-color: hsl(169, 82%, 27%);
+}
+.check input{
+    accent-color: hsl(169, 82%, 27%);
+}
+.e-input input:hover{
+    border-color: hsl(169, 82%, 27%);
+}  */
